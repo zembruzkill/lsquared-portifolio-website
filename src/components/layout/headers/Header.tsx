@@ -17,14 +17,14 @@ export default function Header() {
                     <div className="flex items-center lg:order-2">
                         <Link
                             href="/contato"
-                            className="bg-primary text-black  rounded-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
+                            className="bg-primary text-white  rounded-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
                         >
                             ENTRE EM CONTATO
                         </Link>
                         <button
                             data-collapse-toggle="mobile-menu-2"
                             type="button"
-                            className="inline-flex items-center p-2 ml-1 text-sm text-white rounded-lg lg:hidden hover:bg-white focus:outline-none focus:ring-2 focus:ring-whit"
+                            className="inline-flex items-center p-2 ml-1 text-sm text-black rounded-lg lg:hidden hover:bg-white focus:outline-none focus:ring-2 focus:ring-whit"
                             aria-controls="mobile-menu-2"
                             aria-expanded="false"
                         >
@@ -99,6 +99,14 @@ export default function Header() {
                                     className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     CONTATO
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/trabalhe-conosco"
+                                    className="block py-2 pr-4 pl-3 text-white rounded  "
+                                >
+                                    TRABALHE CONOSCO
                                 </Link>
                             </li>
                         </ul>

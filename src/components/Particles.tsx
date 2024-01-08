@@ -26,7 +26,7 @@ export default function ParticlesComponent(props: {
             links: {
                 enable: true,
                 distance: 150,
-                color: '#ffffff',
+                color: '#FFFFFF',
                 opacity: 0.4,
                 width: 1,
             },
