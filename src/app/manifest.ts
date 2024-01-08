@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next'
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: 'Nutrição para Todos',
-        short_name: 'Nutri para Todos',
-        description: 'Alimentação inteligente para uma vida saudável.',
+        name: 'L-Squared Digital Solutions  ',
+        short_name: 'L-SQUARED',
+        description: 'L-Squared Digital Solutions',
         start_url: '/',
         display: 'standalone',
         background_color: '#fff',

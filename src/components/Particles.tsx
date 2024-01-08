@@ -28,7 +28,7 @@ export default function ParticlesComponent(props: {
                 opacity: 0.4,
                 width: 1,
             },
-            move: { enable: false, speed: 2 },
+            move: { enable: true, speed: 2 },
         },
         interactivity: {
             events: {

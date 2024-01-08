@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/dashboard/*', '/api/*', '/auth/*', 'admin'],
         },
-        sitemap: 'https://nutriparatodos.online/sitemap.xml',
+        sitemap: 'https://lsquared.com.br/sitemap.xml',
     }
 }

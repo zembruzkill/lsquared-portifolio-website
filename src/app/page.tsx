@@ -45,7 +45,7 @@ export default function Home() {
                             </div>
 
                             <p className="text-title-xl xl:text-title-xxl text-white font-[700]">
-                                Uma inovadora Agência de <br />
+                                Soluções digitais de <br />
                                 <span>
                                     <TypeAnimation
                                         sequence={[
