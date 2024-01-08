@@ -8,7 +8,10 @@ import { Engine } from '@tsparticles/engine'
 import Header from '@/components/layout/headers/Header'
 import { TypeAnimation } from 'react-type-animation'
 import Link from 'next/link'
+import Image from 'next/image'
 import { FaRegSquareFull } from 'react-icons/fa6'
+
+import favicon from '@/assets/favicon-primary.svg'
 
 export default function Home() {
     const [init, setInit] = useState(false)
@@ -23,19 +26,22 @@ export default function Home() {
 
     return (
         <>
+            <Header />
             <div className="min-h-screen bg-blackground items-center justify-center">
-                <Header />
                 <Particles id={'particles'} done={init} />
                 <div className="w-full flex justify-center items-center">
                     <div className="w-full items-center p-4 pt-40 xl:p-40 flex space-y-4">
-                        <div>
+                        <div className="pt-10">
                             <div className="flex items-center xl:w-1/2 gap-2">
                                 <p className="text-white text-title-sm font-[200]">
                                     NÓS SOMOS L-SQUARED{' '}
                                 </p>
-                                <span className="text-primary text-title-sm font-[200]">
-                                    <FaRegSquareFull />
-                                </span>
+                                <Image
+                                    src={favicon}
+                                    alt="favicon"
+                                    width={25}
+                                    height={25}
+                                />
                             </div>
 
                             <p className="text-title-xl xl:text-title-xxl text-white font-[700]">
@@ -76,7 +82,14 @@ export default function Home() {
                     </div>
                 </div>
             </div>
-            <div className="bg-black"></div>
+            {/* <div className="w-full flex bg-white min-h-screen items-start justify-center pt-20">
+                <div className="w-full max-w-7xl">
+                    <p className="text-title-xxl font-[700]">Quem Somos?</p>
+                    <p className="justify-start">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                    </p>
+                </div>
+            </div> */}
         </>
     )
 }
