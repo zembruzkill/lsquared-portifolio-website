@@ -7,17 +7,17 @@ import logo from '@/assets/logo.svg'
 
 export default function Header() {
     return (
-        <header className="z-[999999]">
+        <header className="bg-blackground z-[999999] sticky top-0">
             <nav className="bg-transparent px-4 lg:px-6 py-6">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-8xl">
                     <a href="/" className="flex items-center">
-                        {/* <Image src={logo} alt="logo" width={150} height={150} /> */}
-                        <p className="text-white text-title-xl">L-SQUARED</p>
+                        <Image src={logo} alt="logo" width={200} height={200} />
+                        {/* <p className="text-white text-title-xl">L-SQUARED</p> */}
                     </a>
                     <div className="flex items-center lg:order-2">
                         <Link
                             href="/contato"
-                            className="bg-primary text-white  rounded-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
+                            className="text-title-xsm xl:text-title-ssm bg-primary text-white rounded-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
                         >
                             ENTRE EM CONTATO
                         </Link>

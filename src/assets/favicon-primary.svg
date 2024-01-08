@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="189.69801mm"
+   width="35.003342mm"
    height="34.677635mm"
-   viewBox="0 0 189.69802 34.677635"
+   viewBox="0 0 35.003343 34.677635"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
@@ -19,7 +18,7 @@
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
-     bordercolor="#000000"
+     bordercolor="#7fd5f8"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
@@ -76,16 +75,19 @@
        id="rect234-7"
        transform="matrix(-0.00646837,-0.99997908,0.99998041,-0.00625861,0,0)"
        d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
        inkscape:path-effect="#path-effect523"
        inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
        class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-filename="favicon.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <path
        id="rect234-7-0"
        transform="matrix(0.99997908,0.00646837,0.00625861,-0.99998041,165.42177,165.43441)"
        d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
        inkscape:path-effect="#path-effect523-4"
        inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
        class="UnoptimicedTransforms"
@@ -94,7 +96,7 @@
        id="rect234-7-2"
        transform="matrix(0.00646837,0.99997908,-0.99998041,0.00625861,133.79284,196.65914)"
        d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
        inkscape:path-effect="#path-effect523-7"
        inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
        class="UnoptimicedTransforms"
@@ -103,21 +105,10 @@
        id="rect234-7-0-9"
        transform="matrix(-0.99997908,-0.00646837,-0.00625861,0.99998041,-31.638473,31.253148)"
        d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
        inkscape:path-effect="#path-effect523-4-5"
        inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
        class="UnoptimicedTransforms"
        sodipodi:nodetypes="ccccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:25.4px;line-height:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-decoration-color:#000000;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.759;stroke-opacity:0;stop-color:#000000"
-       x="163.56749"
-       y="107.77435"
-       id="text2483"><tspan
-         sodipodi:role="line"
-         id="tspan2481"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff;stroke-width:0.759"
-         x="163.56749"
-         y="107.77435">L-SQUARED</tspan></text>
   </g>
 </svg>
