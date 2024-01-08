@@ -84,10 +84,10 @@ export default function Home() {
                                 Marketing Digital
                             </p>
                             <p className="text-white text-title-xsm font-[200] pt-4">
-                                Uma agência de marketing digital multipremiada
-                                que oferece um amplo espectro de soluções
-                                digitais. Nossa sede fica no Reino Unido, com
-                                filiais em vários locais ao redor do mundo.
+                                Uma agência de marketing digital que oferece um
+                                amplo espectro de soluções digitais. Nossa sede
+                                fica em Porto Alegre - RS, com clientes em
+                                vários locais do Brasil.
                             </p>
                             <Link href={'/contato'}>
                                 <p className="text-white text-title-sm pt-4">
