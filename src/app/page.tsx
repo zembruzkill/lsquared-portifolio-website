@@ -23,14 +23,14 @@ export default function Home() {
 
     return (
         <>
-            <div className="min-h-screen bg-blackground items-center justify-center">
+            <div className="min-h-screen bg-white items-center justify-center">
                 <Header />
                 <Particles id={'particles'} done={init} />
                 <div className="w-full flex justify-center items-center">
                     <div className="w-full items-center p-4 pt-40 xl:p-40 flex space-y-4">
                         <div>
                             <div className="flex items-center xl:w-1/2 gap-2">
-                                <p className="text-white text-title-sm font-[200]">
+                                <p className="text-black text-title-sm font-[200]">
                                     NÓS SOMOS L-SQUARED{' '}
                                 </p>
                                 <span className="text-primary text-title-sm font-[200]">
@@ -38,7 +38,7 @@ export default function Home() {
                                 </span>
                             </div>
 
-                            <p className="text-title-xl xl:text-title-xxl text-white font-[700]">
+                            <p className="text-title-xl xl:text-title-xxl text-black font-[700]">
                                 Uma inovadora Agência de <br />
                                 <span>
                                     <TypeAnimation
@@ -57,14 +57,14 @@ export default function Home() {
                                 </span>
                             </p>
 
-                            <p className="text-white text-title-xsm font-[200] pt-4">
+                            <p className="text-black text-title-xsm font-[200] pt-4">
                                 Uma agência de marketing digital que oferece um
                                 amplo espectro de soluções digitais. Nossa sede
                                 fica em Porto Alegre - RS, com clientes em
                                 vários locais do Brasil.
                             </p>
                             <Link href={'/contato'}>
-                                <p className="text-white text-title-sm pt-4">
+                                <p className="text-black text-title-sm pt-4">
                                     Quer entrar em contato?{' '}
                                     <span className="text-primary underline">
                                         Vamos conversar

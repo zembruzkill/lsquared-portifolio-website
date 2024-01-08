@@ -23,7 +23,7 @@ const config: Config = {
                 bodydark1: '#DEE4EE',
                 bodydark2: '#8A99AF',
                 button: '#EF9F8F',
-                primary: '#FFD64B',
+                primary: '#7fd5f8',
                 secondary: '#FFFFFF',
                 stroke: '#E2E8F0',
                 gray: '#EFF4FB',
