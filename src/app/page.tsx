@@ -27,15 +27,15 @@ export default function Home() {
 
     return (
         <>
-            <Header />
             <div className="min-h-screen bg-blackground items-center justify-center">
+                <Header />
                 <Particles id={'particles'} done={init} />
                 <div className="w-full flex justify-center items-center">
                     <div className="w-full items-center p-4 pt-40 xl:p-40 flex space-y-4">
                         <div className="pt-10">
                             <div className="flex items-center xl:w-1/2 gap-2">
                                 <p className="text-white text-title-sm font-[200]">
-                                    NÓS SOMOS L-SQUARED{' '}
+                                    NÓS SOMOS A L-SQUARED{' '}
                                 </p>
                                 <Image
                                     src={favicon}
@@ -65,17 +65,19 @@ export default function Home() {
                             </p>
 
                             <p className="text-white text-title-xsm font-[200] pt-4">
-                                Uma agência de marketing digital que oferece um
-                                amplo espectro de soluções digitais. Nossa sede
-                                fica em Porto Alegre - RS, com clientes em
-                                vários locais do Brasil.
+                                Uma empresa inovadora solucionando o digital
+                                para você. Nossa sede fica em Porto Alegre - RS.
+                                Atendendo a diversos clientes em território
+                                nacional.
                             </p>
                             <Link href={'/contato'}>
-                                <p className="text-white text-title-sm pt-4">
-                                    Quer entrar em contato?{' '}
-                                    <span className="text-primary underline">
-                                        Vamos conversar
-                                    </span>
+                                <p className="text-white text-title-sm pt-4 space-y-2">
+                                    Explore a excelência do digital, inicie a
+                                    jornada da solução perfeita para você.{' '}
+                                    <br />
+                                    <button className="bg-primary rounded-lg p-4 hover:text-black">
+                                        Quero a Perfeição!
+                                    </button>
                                 </p>
                             </Link>
                         </div>

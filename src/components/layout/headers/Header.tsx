@@ -13,7 +13,6 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-8xl">
                     <a href="/" className="flex items-center">
                         <Image src={logo} alt="logo" width={200} height={200} />
-                        {/* <p className="text-white text-title-xl">L-SQUARED</p> */}
                     </a>
                     <div className="flex items-center lg:order-2">
                         <Link
