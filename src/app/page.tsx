@@ -1,6 +1,7 @@
 'use client'
 
 import Particles from '@/components/Particles'
+import TextSlider from '@/components/TextSlider'
 import { useEffect, useState } from 'react'
 import { initParticlesEngine } from '@tsparticles/react'
 import { loadFull } from 'tsparticles'
@@ -81,6 +82,7 @@ export default function Home() {
                         <div className="xl:w-1/2"></div>
                     </div>
                 </div>
+                <TextSlider />
             </div>
             {/* <div className="w-full flex bg-white min-h-screen items-start justify-center pt-20">
                 <div className="w-full max-w-7xl">

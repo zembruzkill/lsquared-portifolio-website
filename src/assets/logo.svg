@@ -8,7 +8,7 @@
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
-   sodipodi:docname="drawing.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="drawing.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -27,15 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1715924"
-     inkscape:cx="358.48646"
-     inkscape:cy="214.66511"
+     inkscape:zoom="0.96781717"
+     inkscape:cx="311.52578"
+     inkscape:cy="231.9653"
      inkscape:window-width="1710"
      inkscape:window-height="963"
      inkscape:window-x="0"
      inkscape:window-y="43"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="text2483" />
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -72,52 +72,74 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-49.394749,-81.004962)">
-    <path
-       id="rect234-7"
-       transform="matrix(-0.00646837,-0.99997908,0.99998041,-0.00625861,0,0)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-       inkscape:path-effect="#path-effect523"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       id="rect234-7-0"
-       transform="matrix(0.99997908,0.00646837,0.00625861,-0.99998041,165.42177,165.43441)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-       inkscape:path-effect="#path-effect523-4"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       id="rect234-7-2"
-       transform="matrix(0.00646837,0.99997908,-0.99998041,0.00625861,133.79284,196.65914)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-       inkscape:path-effect="#path-effect523-7"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       id="rect234-7-0-9"
-       transform="matrix(-0.99997908,-0.00646837,-0.00625861,0.99998041,-31.638473,31.253148)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-       inkscape:path-effect="#path-effect523-4-5"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
-    <text
-       xml:space="preserve"
-       style="font-size:25.4px;line-height:normal;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-decoration-color:#000000;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.759;stroke-opacity:0;stop-color:#000000"
-       x="163.56749"
-       y="107.77435"
-       id="text2483"><tspan
-         sodipodi:role="line"
-         id="tspan2481"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25.4px;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff;stroke-width:0.759"
-         x="163.56749"
-         y="107.77435">L-SQUARED</tspan></text>
+    <g
+       id="g371"
+       style="fill:#ffffff">
+      <path
+         id="rect234-7"
+         transform="matrix(-0.00646837,-0.99997908,0.99998041,-0.00625861,0,0)"
+         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="rect234-7-0"
+         transform="matrix(0.99997908,0.00646837,0.00625861,-0.99998041,165.42177,165.43441)"
+         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="rect234-7-2"
+         transform="matrix(0.00646837,0.99997908,-0.99998041,0.00625861,133.79284,196.65914)"
+         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="rect234-7-0-9"
+         transform="matrix(-0.99997908,-0.00646837,-0.00625861,0.99998041,-31.638473,31.253148)"
+         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       aria-label="L-SQUARED"
+       id="text2483"
+       style="font-size:25.4px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-anchor:middle;stroke:#9a8a66;stroke-width:0.759;stroke-opacity:0;stop-color:#000000">
+      <path
+         d="M 89.539333,106.02728 V 88.247283 h 4.3434 v 13.944597 h 7.924797 v 3.8354 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path373" />
+      <path
+         d="m 102.62026,100.59168 v -3.733797 h 8.7376 v 3.733797 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path375" />
+      <path
+         d="m 120.75584,106.28128 q -2.6416,0 -4.4704,-0.9144 -1.8034,-0.9398 -3.0988,-2.6416 l 2.6416,-2.971797 q 1.2446,1.701797 2.5146,2.285997 1.27,0.5842 2.6162,0.5842 0.6858,0 1.2192,-0.1778 0.5588,-0.1778 0.8636,-0.508 0.3302,-0.3556 0.3302,-0.8382 0,-0.381 -0.2032,-0.6858 -0.1778,-0.3048 -0.508,-0.533397 -0.3302,-0.2286 -0.762,-0.4064 -0.4318,-0.2032 -0.9652,-0.3302 -0.508,-0.127 -1.0414,-0.2286 -1.4732,-0.3048 -2.5654,-0.7874 -1.0668,-0.508 -1.8034,-1.1938 -0.7112,-0.7112 -1.0668,-1.6002 -0.3556,-0.9144 -0.3556,-2.0574 0,-1.6256 0.9144,-2.8448 0.9398,-1.2192 2.4638,-1.905 1.524,-0.6858 3.302,-0.6858 2.5908,0 4.1656,0.8382 1.6002,0.8128 2.54,2.2606 l -2.6924,2.6162 q -0.7874,-1.016 -1.8034,-1.524 -0.9906,-0.508 -2.0828,-0.508 -0.7366,0 -1.2954,0.1778 -0.5588,0.1778 -0.8636,0.5334 -0.2794,0.3302 -0.2794,0.8128 0,0.4064 0.2286,0.7366 0.254,0.3048 0.6858,0.5334 0.4318,0.2286 0.9906,0.4064 0.5588,0.1524 1.1684,0.254 1.397,0.2794 2.5146,0.7366 1.143,0.4572 1.9558,1.143 0.8128,0.6604 1.2446,1.5748 0.4572,0.889 0.4572,2.057397 0,1.8288 -0.889,3.1242 -0.889,1.2954 -2.4638,1.9812 -1.5748,0.6858 -3.6068,0.6858 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path377" />
+      <path
+         d="m 144.3524,108.84668 -6.8072,-9.194797 3.2004,-2.2352 6.7056,9.118597 z m -5.2832,-2.5654 q -2.0066,0 -3.7084,-0.6858 -1.6764,-0.6858 -2.921,-1.905 -1.2192,-1.2446 -1.905,-2.921 -0.6858,-1.701797 -0.6858,-3.682997 0,-2.0066 0.6858,-3.683 0.6858,-1.7018 1.905,-2.9464 1.2446,-1.2446 2.921,-1.9304 1.7018,-0.6858 3.7084,-0.6858 1.9812,0 3.6576,0.6858 1.6764,0.6858 2.8956,1.9304 1.2446,1.2446 1.9304,2.9464 0.6858,1.6764 0.6858,3.683 0,1.9812 -0.6858,3.657597 -0.6858,1.6764 -1.9304,2.921 -1.2192,1.2446 -2.8956,1.9304 -1.6764,0.6858 -3.6576,0.6858 z m 0,-4.0894 q 1.0414,0 1.905,-0.381 0.8636,-0.381 1.4986,-1.0668 0.6604,-0.6858 1.016,-1.625597 0.3556,-0.9398 0.3556,-2.032 0,-1.1176 -0.3556,-2.0574 -0.3556,-0.9398 -1.016,-1.6256 -0.635,-0.7112 -1.4986,-1.0922 -0.8636,-0.381 -1.905,-0.381 -1.0414,0 -1.9304,0.381 -0.8636,0.381 -1.524,1.0922 -0.635,0.6858 -0.9906,1.6256 -0.3556,0.9398 -0.3556,2.0574 0,1.4732 0.6096,2.6416 0.635,1.142997 1.7018,1.803397 1.0922,0.6604 2.4892,0.6604 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path379" />
+      <path
+         d="m 159.05898,106.17968 q -2.2098,0 -3.937,-0.889 -1.7018,-0.9144 -2.6924,-2.4892 -0.9906,-1.6002 -0.9906,-3.606797 v -10.9728 h 4.3688 v 10.7442 q 0,0.9652 0.4318,1.727197 0.4318,0.762 1.1684,1.2192 0.762,0.4318 1.651,0.4318 0.9398,0 1.7018,-0.4318 0.762,-0.4572 1.1938,-1.2192 0.4572,-0.761997 0.4572,-1.727197 v -10.7442 h 4.2164 v 10.9728 q 0,2.006597 -0.9906,3.606797 -0.9652,1.5748 -2.667,2.4892 -1.7018,0.889 -3.9116,0.889 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path381" />
+      <path
+         d="m 168.22837,106.02728 7.0358,-17.779997 h 3.683 l 6.985,17.779997 h -4.3688 l -3.3782,-9.016997 q -0.1778,-0.5334 -0.4064,-1.143 -0.2032,-0.6096 -0.4064,-1.27 -0.2032,-0.6604 -0.381,-1.27 -0.1778,-0.6096 -0.3048,-1.143 l 0.7366,-0.0254 q -0.1524,0.635 -0.3302,1.2446 -0.1778,0.6096 -0.381,1.2192 -0.2032,0.6096 -0.4318,1.2192 -0.2032,0.5842 -0.4318,1.2192 l -3.3528,8.966197 z m 3.3528,-3.4036 1.3716,-3.301997 h 8.128 l 1.3716,3.301997 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path383" />
+      <path
+         d="M 188.14193,106.02728 V 88.247283 h 8.0518 q 1.7272,0 3.0988,0.7366 1.3716,0.7366 2.159,2.032 0.8128,1.27 0.8128,2.921 0,1.6764 -0.8128,2.9972 -0.7874,1.3208 -2.159,2.1082 -1.3716,0.762 -3.0988,0.762 h -3.9116 v 6.222997 z m 9.8806,0 -4.5212,-8.051797 4.445,-0.635 5.0292,8.712197 z m -5.7404,-9.601197 h 3.5306 q 0.6604,0 1.143,-0.2794 0.508,-0.3048 0.762,-0.8128 0.2794,-0.508 0.2794,-1.1684 0,-0.6858 -0.3302,-1.1938 -0.3048,-0.508 -0.889,-0.7874 -0.5588,-0.3048 -1.3462,-0.3048 h -3.1496 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path385" />
+      <path
+         d="M 206.0235,106.02728 V 88.247283 h 12.3952 v 3.7084 h -8.1534 v 10.363197 h 8.4328 v 3.7084 z m 2.0574,-7.264397 v -3.556 h 9.2202 v 3.556 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path387" />
+      <path
+         d="M 222.40646,106.02728 V 88.247283 h 7.493 q 1.9558,0 3.5814,0.6604 1.6256,0.635 2.794,1.8288 1.1684,1.1684 1.8034,2.8194 0.635,1.6256 0.635,3.5814 0,1.9812 -0.635,3.606797 -0.635,1.6256 -1.8034,2.8194 -1.1684,1.1684 -2.794,1.8288 -1.6002,0.635 -3.5814,0.635 z m 4.3434,-2.9972 -0.5588,-0.8382 h 3.5814 q 1.0414,0 1.8796,-0.3556 0.8382,-0.3556 1.4224,-1.016 0.6096,-0.6858 0.9144,-1.600197 0.3302,-0.9398 0.3302,-2.0828 0,-1.143 -0.3302,-2.0574 -0.3048,-0.9398 -0.9144,-1.6002 -0.5842,-0.6858 -1.4224,-1.0414 -0.8382,-0.3556 -1.8796,-0.3556 h -3.6576 l 0.635,-0.7874 z"
+         style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
+         id="path389" />
+    </g>
   </g>
 </svg>

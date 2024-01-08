@@ -239,18 +239,14 @@ const config: Config = {
                 1: '0px 1px 0px #E2E8F0',
                 2: '0px 1px 4px rgba(0, 0, 0, 0.12)',
             },
-            keyframes: {
-                rotating: {
-                    '0%, 100%': { transform: 'rotate(360deg)' },
-                    '50%': { transform: 'rotate(0deg)' },
-                },
-            },
             animation: {
-                'ping-once': 'ping 5s cubic-bezier(0, 0, 0.2, 1)',
-                rotating: 'rotating 30s linear infinite',
-                'spin-1.5': 'spin 1.5s linear infinite',
-                'spin-2': 'spin 2s linear infinite',
-                'spin-3': 'spin 3s linear infinite',
+                'infinite-scroll': 'infinite-scroll 25s linear infinite',
+            },
+            keyframes: {
+                'infinite-scroll': {
+                    from: { transform: 'translateX(0)' },
+                    to: { transform: 'translateX(-100%)' },
+                },
             },
             backgroundImage: {
                 'chart-grid-background':
