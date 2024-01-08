@@ -7,18 +7,20 @@ export default function ParticlesComponent(props: {
     id: string
     done: boolean
 }) {
-    console.log(JSON.stringify(configs.bubble))
-
-    const myConfig = {
+    const options = {
         name: 'Basic',
         particles: {
-            fullScreen: { enable: false, zIndex: 0 },
-            number: { value: 100, density: { enable: true } },
+            fullScreen: { enable: true, zIndex: -1 },
+            number: { value: 150, density: { enable: false } },
             color: {
-                value: '#ff0000',
-                animation: { enable: true, speed: 1, sync: true },
+                value: '#FFD64B',
+                animation: {
+                    enable: true,
+                    speed: 1,
+                    sync: true,
+                },
             },
-            shape: { type: 'circle' },
+            shape: { type: 'rectangle' },
             opacity: { value: 0.5 },
             size: { value: { min: 1, max: 3 } },
             links: {
@@ -28,17 +30,23 @@ export default function ParticlesComponent(props: {
                 opacity: 0.4,
                 width: 1,
             },
-            move: { enable: true, speed: 6 },
+            move: { enable: true, speed: 2 },
         },
         interactivity: {
             events: {
                 onHover: { enable: true, mode: 'repulse' },
                 onClick: { enable: true, mode: 'push' },
             },
-            modes: { repulse: { distance: 200 }, push: { quantity: 4 } },
+            modes: {
+                repulse: { distance: 50 },
+                push: { quantity: 4 },
+            },
+        },
+        style: {
+            position: 'absolute',
         },
         background: { color: '' },
     }
 
-    return props.done && <Particles id={props.id} options={myConfig} />
+    return props.done && <Particles id={props.id} options={options} />
 }

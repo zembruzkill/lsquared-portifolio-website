@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 
 import logo from '@/assets/logo.svg'
 
@@ -14,12 +15,12 @@ export default function Header() {
                         <p className="text-white text-title-xl">L-SQUARE</p>
                     </a>
                     <div className="flex items-center lg:order-2">
-                        <a
-                            href="#"
+                        <Link
+                            href="/contato"
                             className="bg-primary text-black  rounded-lg px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
                         >
                             ENTRE EM CONTATO
-                        </a>
+                        </Link>
                         <button
                             data-collapse-toggle="mobile-menu-2"
                             type="button"
@@ -60,25 +61,25 @@ export default function Header() {
                     >
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             <li>
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/"
                                     className="block py-2 pr-4 pl-3 text-white rounded "
                                     aria-current="page"
                                 >
                                     HOME
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <a
-                                    href="#"
-                                    className="block py-2 pr-4 pl-3 text-white rounded  "
+                                    href="/sobre"
+                                    className="block py-2 pr-4 pl-3 text-white rounded"
                                 >
                                     SOBRE
                                 </a>
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/servicos"
                                     className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     SERVIÇOS
@@ -86,19 +87,19 @@ export default function Header() {
                             </li>
                             <li>
                                 <a
-                                    href="#"
+                                    href="/estudos-de-caso"
                                     className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     ESTUDOS DE CASO
                                 </a>
                             </li>
                             <li>
-                                <a
-                                    href="#"
+                                <Link
+                                    href="/contato"
                                     className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     CONTATO
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>

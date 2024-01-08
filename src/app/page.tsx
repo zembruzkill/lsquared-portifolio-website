@@ -1,7 +1,6 @@
 'use client'
 
-import styles from './page.module.css'
-import Particles from '@tsparticles/react'
+import Particles from '@/components/Particles'
 import { useEffect, useState } from 'react'
 import { initParticlesEngine } from '@tsparticles/react'
 import { loadSlim } from '@tsparticles/slim'
@@ -23,50 +22,9 @@ export default function Home() {
 
     return (
         <>
-            <Particles
-                className="absolute w-4 h-full"
-                id="tsparticles"
-                style={{}}
-                options={{
-                    name: 'Basic',
-                    particles: {
-                        fullScreen: { enable: false, zIndex: 0 },
-                        number: { value: 100, density: { enable: true } },
-                        color: {
-                            value: '#ff0000',
-                            animation: {
-                                enable: true,
-                                speed: 1,
-                                sync: true,
-                            },
-                        },
-                        shape: { type: 'circle' },
-                        opacity: { value: 0.5 },
-                        size: { value: { min: 1, max: 3 } },
-                        links: {
-                            enable: true,
-                            distance: 150,
-                            color: '#ffffff',
-                            opacity: 0.4,
-                            width: 1,
-                        },
-                        move: { enable: true, speed: 6 },
-                    },
-                    interactivity: {
-                        events: {
-                            onHover: { enable: true, mode: 'repulse' },
-                            onClick: { enable: true, mode: 'push' },
-                        },
-                        modes: {
-                            repulse: { distance: 200 },
-                            push: { quantity: 4 },
-                        },
-                    },
-                    background: { color: '' },
-                }}
-            />
             <div className="min-h-screen bg-blackground items-center justify-center">
                 <Header />
+                <Particles id={'particles'} done={init} />
                 <div className="w-full flex justify-center items-center">
                     <div className="w-full p-4 xl:p-40 flex space-y-4">
                         <div>
@@ -102,6 +60,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            <div className="bg-black"></div>
         </>
     )
 }
