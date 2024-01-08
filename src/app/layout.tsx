@@ -8,8 +8,8 @@ import Providers from '@/components/Providers'
 const roboto = Readex_Pro({ subsets: ['latin'], weight: ['200', '300', '400', '500', '600', '700'] })
 
 export const metadata: Metadata = {
-    title: 'L-Square Digital Solutions',
-    description: 'A L-Square Digital Solutions é uma empresa de desenvolvimento de software e marketing.',
+    title: 'L-Squared Digital Solutions',
+    description: 'A L-Squared Digital Solutions é uma empresa de desenvolvimento de software e marketing.',
 }
 
 export default function RootLayout({

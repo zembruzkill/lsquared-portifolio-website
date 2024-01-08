@@ -30,7 +30,7 @@ export default function Home() {
                         <div>
                             <div className="flex items-center w-1/2 gap-2">
                                 <p className="text-white text-title-sm font-[200]">
-                                    NÓS SOMOS L-SQUARE{' '}
+                                    NÓS SOMOS L-SQUARED{' '}
                                 </p>
                                 <span className="text-primary text-title-sm font-[200]">
                                     <FaRegSquareFull />
