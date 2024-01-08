@@ -12,7 +12,7 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-8xl">
                     <a href="/" className="flex items-center">
                         {/* <Image src={logo} alt="logo" width={150} height={150} /> */}
-                        <p className="text-black text-title-xl">L-SQUARED</p>
+                        <p className="text-white text-title-xl">L-SQUARED</p>
                     </a>
                     <div className="flex items-center lg:order-2">
                         <Link
@@ -63,7 +63,7 @@ export default function Header() {
                             <li>
                                 <Link
                                     href="/"
-                                    className="block py-2 pr-4 pl-3 text-black rounded "
+                                    className="block py-2 pr-4 pl-3 text-white rounded "
                                     aria-current="page"
                                 >
                                     HOME
@@ -72,7 +72,7 @@ export default function Header() {
                             <li>
                                 <a
                                     href="/sobre"
-                                    className="block py-2 pr-4 pl-3 text-black rounded"
+                                    className="block py-2 pr-4 pl-3 text-white rounded"
                                 >
                                     SOBRE
                                 </a>
@@ -80,7 +80,7 @@ export default function Header() {
                             <li>
                                 <a
                                     href="/servicos"
-                                    className="block py-2 pr-4 pl-3 text-black rounded  "
+                                    className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     SERVIÇOS
                                 </a>
@@ -88,7 +88,7 @@ export default function Header() {
                             <li>
                                 <a
                                     href="/estudos-de-caso"
-                                    className="block py-2 pr-4 pl-3 text-black rounded  "
+                                    className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     ESTUDOS DE CASO
                                 </a>
@@ -96,7 +96,7 @@ export default function Header() {
                             <li>
                                 <Link
                                     href="/contato"
-                                    className="block py-2 pr-4 pl-3 text-black rounded  "
+                                    className="block py-2 pr-4 pl-3 text-white rounded  "
                                 >
                                     CONTATO
                                 </Link>
