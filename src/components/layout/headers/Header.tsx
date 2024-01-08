@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import Link from 'next/link'
+import { FloatingWhatsApp } from 'react-floating-whatsapp'
 
 import logo from '@/assets/logo.svg'
 
@@ -105,6 +106,18 @@ export default function Header() {
                     </div>
                 </div>
             </nav>
+            <FloatingWhatsApp
+                phoneNumber="+5551995506794"
+                accountName="Luan"
+                statusMessage="Usualmente responde em 1 hora!"
+                chatMessage="Olá, como posso te ajudar?"
+                placeholder="Digite uma mensagem..."
+                avatar="https://media.licdn.com/dms/image/D5603AQH9LlhoEyiPnQ/profile-displayphoto-shrink_800_800/0/1704480551993?e=1710374400&v=beta&t=Pk8Ec7j7USZRRpbaJ7WbLcYvQRIwE9kjR5VMAekXeO4"
+                darkMode={true}
+                allowEsc
+                notification
+                notificationSound
+            />
         </header>
     )
 }
