@@ -9,9 +9,10 @@ export default function ParticlesComponent(props: {
 }) {
     const options = {
         name: 'Basic',
+        detectRetina: true,
         particles: {
             fullScreen: { enable: true, zIndex: -1 },
-            number: { value: 150, density: { enable: false } },
+            number: { value: 80, density: { enable: false } },
             color: {
                 value: '#FFD64B',
                 animation: {

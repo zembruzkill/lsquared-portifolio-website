@@ -249,12 +249,8 @@ const config: Config = {
                 },
             },
             backgroundImage: {
-                'chart-grid-background':
-                    "url('https://res.cloudinary.com/doorwkexf/image/upload/v1703633410/background_xcxrcn.svg')",
-                'background-before-after':
-                    "url('https://res.cloudinary.com/doorwkexf/image/upload/v1704116682/background-before-and-after_cv16sj.png')",
-                'status-icon':
-                    "url('https://res.cloudinary.com/doorwkexf/image/upload/v1697358076/course-incomplete_ybjy03.png')",
+                'home-session-background':
+                    "url('https://res.cloudinary.com/doorwkexf/image/upload/v1704762834/1687303502_en-idei-club-p-white-technology-background-dizain-75_scavhy.png')",
                 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
                 'gradient-conic':
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',

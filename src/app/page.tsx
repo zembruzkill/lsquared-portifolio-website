@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react'
 import { initParticlesEngine } from '@tsparticles/react'
 import { loadFull } from 'tsparticles'
 import { Engine } from '@tsparticles/engine'
-import Header from '@/components/layout/headers/Header'
+import Headerr from '@/components/layout/headers/Header'
 import { TypeAnimation } from 'react-type-animation'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -27,11 +27,11 @@ export default function Home() {
 
     return (
         <>
-            <div className="min-h-screen bg-blackground items-center justify-center">
-                <Header />
+            <Headerr />
+            <div className="min-h-screen bg-blackground items-center justify-center -mt-16">
                 <Particles id={'particles'} done={init} />
                 <div className="w-full flex justify-center items-center">
-                    <div className="w-full items-center p-4 pt-40 xl:p-40 flex space-y-4">
+                    <div className="w-full items-center p-4 pt-40 max-w-7xl flex space-y-4">
                         <div className="pt-10">
                             <div className="flex items-center xl:w-1/2 gap-2">
                                 <p className="text-white text-title-sm font-[200]">
@@ -86,11 +86,10 @@ export default function Home() {
                 </div>
                 <TextSlider />
             </div>
-            {/* <div className="w-full flex bg-white min-h-screen items-start justify-center pt-20">
+            {/* <div className="w-full flex bg-home-session-background bg-cover bg-right bg-no-repeat min-h-screen items-start justify-center pt-20">
                 <div className="w-full max-w-7xl">
-                    <p className="text-title-xxl font-[700]">Quem Somos?</p>
-                    <p className="justify-start">
-                        Lorem ipsum dolor sit amet consectetur adipisicing
+                    <p className="text-title-xxl font-[700]">
+                        Sobre a L-Squared Digital Solutions
                     </p>
                 </div>
             </div> */}
