@@ -30,7 +30,7 @@ export default function Home() {
             <Headerr />
             <div className="min-h-screen bg-blackground items-center justify-center -mt-16">
                 <Particles id={'particles'} done={init} />
-                <div className="w-full flex justify-center items-center">
+                <div className="w-full flex justify-center items-center pb-20">
                     <div className="w-full items-center p-4 pt-40 max-w-7xl flex space-y-4">
                         <div className="pt-10">
                             <div className="flex items-center xl:w-1/2 gap-2">

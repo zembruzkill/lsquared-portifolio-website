@@ -42,31 +42,39 @@ export default function Header() {
                         <Image src={logo} alt="logo" width={150} height={150} />
                     </NavbarBrand>
                     <NavbarItem isActive>
-                        <Link href="/" color="secondary">
+                        <Link color="secondary" href="/" underline="hover">
                             INÍCIO
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link
-                            href="/sobre"
-                            color="secondary"
-                            aria-current="page"
-                        >
+                        <Link color="secondary" href="/sobre" underline="hover">
                             SOBRE
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="secondary" href="/servicos">
+                        <Link
+                            color="secondary"
+                            href="/servicos"
+                            underline="hover"
+                        >
                             SERVIÇOS
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="secondary" href="/contato">
+                        <Link
+                            color="secondary"
+                            href="/contato"
+                            underline="hover"
+                        >
                             CONTATO
                         </Link>
                     </NavbarItem>
                     <NavbarItem>
-                        <Link color="secondary" href="trabalhe-conosco">
+                        <Link
+                            color="secondary"
+                            href="trabalhe-conosco"
+                            underline="hover"
+                        >
                             TRABALHE CONOSCO
                         </Link>
                     </NavbarItem>
