@@ -16,6 +16,7 @@ import { FaRegSquareFull } from 'react-icons/fa6'
 import favicon from '@/assets/favicon-primary.svg'
 import Footer from '@/components/layout/footers/Footer'
 import AboutComponent from '@/components/AboutComponent'
+import OurServicesComponent from '@/components/OurServicesComponent'
 
 export default function Home() {
     const [init, setInit] = useState(false)
@@ -89,9 +90,25 @@ export default function Home() {
                         <div className="xl:w-1/2"></div>
                     </div>
                 </div>
-                <TextSlider />
+                <TextSlider
+                    services={[
+                        {
+                            label: 'Desenvolvimento',
+                            alt: 'Desenvolvimento',
+                        },
+                        {
+                            label: 'Softwares',
+                            alt: 'Softwares',
+                        },
+                        {
+                            label: 'Aplicativos',
+                            alt: 'Aplicativos',
+                        },
+                    ]}
+                />
             </div>
             <AboutComponent />
+            <OurServicesComponent />
         </>
     )
 }
