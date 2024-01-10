@@ -29,12 +29,9 @@ export default function OurServicesComponent() {
                     <div className="flex justify-start">
                         <div className="absolute flex w-full space-y-6 p-8 xl:p-1">
                             <div className="xl:w-2/3">
-                                <p className="text-title-md font-semibold text-white capitalize xl:text-title-xl">
-                                    Explore nossas{' '}
-                                    <span className="underline text-primary">
-                                        Soluções
-                                    </span>
-                                </p>
+                                <h1 className="text-white text-title-lg xl:text-title-xxl font-bold">
+                                    Nossos Servicos
+                                </h1>
 
                                 <p className="text-white font-bold text-title-xsm xl:text-title-sm text-start">
                                     Transformamos ideias em soluções digitais
