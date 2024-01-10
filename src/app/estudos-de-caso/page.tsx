@@ -4,7 +4,7 @@ export default function EstudosDeCaso() {
     return (
         <>
             <div className="min-h-screen bg-blackground items-center justify-center">
-                <Header />
+                <Header backgroundColor="transparent" />
                 <div className="w-full flex justify-center items-center pt-32">
                     <h1 className="text-white text-title-xxl">
                         Estudos de Caso
