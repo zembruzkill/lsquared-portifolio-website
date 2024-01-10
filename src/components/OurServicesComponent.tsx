@@ -30,7 +30,10 @@ export default function OurServicesComponent() {
                         <div className="absolute flex w-full space-y-6 p-8 xl:p-1">
                             <div className="xl:w-2/3">
                                 <h1 className="text-white text-title-lg xl:text-title-xxl font-bold">
-                                    Nossos Servicos
+                                    Nossos{' '}
+                                    <span className="text-primary underline">
+                                        Serviços
+                                    </span>
                                 </h1>
 
                                 <p className="text-white font-bold text-title-xsm xl:text-title-sm text-start">

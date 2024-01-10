@@ -12,10 +12,10 @@ export default function Serviços() {
                         <div className="flex justify-start">
                             <div className=" flex w-full space-y-6 p-8 xl:p-1">
                                 <div className="xl:w-2/3">
-                                    <h1 className="text-3xl font-semibold text-white capitalize lg:text-4xl">
-                                        Explore nossas <br />{' '}
-                                        <span className="underline text-primary">
-                                            Soluções
+                                    <h1 className="text-white text-title-lg xl:text-title-xxl font-bold">
+                                        Nossos{' '}
+                                        <span className="text-primary underline">
+                                            Serviços
                                         </span>
                                     </h1>
 
