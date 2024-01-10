@@ -15,8 +15,13 @@ import {
 import Image from 'next/image'
 
 import logo from '@/assets/logo.svg'
+import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa6'
 
-export default function Header() {
+interface HeaderProps {
+    backgroundColor: string
+}
+
+export default function Header({ backgroundColor }: HeaderProps) {
     const menuItems = [
         { label: 'INÍCIO', href: '/' },
         { label: 'SOBRE', href: '/sobre' },
@@ -26,20 +31,38 @@ export default function Header() {
     ]
     return (
         <>
-            <Navbar className="bg-blackground" maxWidth="2xl">
+            <Navbar
+                className={`bg-${backgroundColor}`}
+                maxWidth="2xl"
+                position="static"
+            >
                 <NavbarContent className="sm:hidden" justify="start">
                     <NavbarMenuToggle />
                 </NavbarContent>
 
                 <NavbarContent className="sm:hidden" justify="start">
                     <NavbarBrand>
-                        <Image src={logo} alt="logo" width={200} height={200} />
+                        <Link href="/">
+                            <Image
+                                src={logo}
+                                alt="logo"
+                                width={200}
+                                height={200}
+                            />
+                        </Link>
                     </NavbarBrand>
                 </NavbarContent>
 
                 <NavbarContent className="hidden sm:flex gap-4" justify="end">
                     <NavbarBrand>
-                        <Image src={logo} alt="logo" width={150} height={150} />
+                        <Link href="/">
+                            <Image
+                                src={logo}
+                                alt="logo"
+                                width={150}
+                                height={150}
+                            />
+                        </Link>
                     </NavbarBrand>
                     <NavbarItem isActive>
                         <Link color="secondary" href="/" underline="hover">
@@ -81,12 +104,40 @@ export default function Header() {
                 </NavbarContent>
 
                 <NavbarContent justify="end">
+                    <div className="hidden text-white xl:flex gap-2">
+                        <NavbarItem>
+                            <FaInstagram
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                        <NavbarItem>
+                            <FaFacebook
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                        <NavbarItem>
+                            <FaTwitter
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                        <NavbarItem>
+                            <FaLinkedin
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                    </div>
+
                     <NavbarItem>
                         <Button
                             as={Link}
                             color="primary"
                             href="/contato"
                             variant="shadow"
+                            size="lg"
                         >
                             ENTRE EM CONTATO
                         </Button>
@@ -106,6 +157,35 @@ export default function Header() {
                             </Link>
                         </NavbarMenuItem>
                     ))}
+                    <div className="pb-4 pt-4 pr-4">
+                        <hr className="" />
+                    </div>
+                    <div className=" text-white flex gap-2">
+                        <NavbarItem>
+                            <FaInstagram
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                        <NavbarItem>
+                            <FaFacebook
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                        <NavbarItem>
+                            <FaTwitter
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                        <NavbarItem>
+                            <FaLinkedin
+                                className="hover:text-primary"
+                                size={25}
+                            />
+                        </NavbarItem>
+                    </div>
                 </NavbarMenu>
             </Navbar>
         </>

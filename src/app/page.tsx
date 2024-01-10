@@ -1,6 +1,7 @@
 'use client'
 
 import Particles from '@/components/Particles'
+import ImgSlider from '@/components/ImgSlider'
 import TextSlider from '@/components/TextSlider'
 import { useEffect, useState } from 'react'
 import { initParticlesEngine } from '@tsparticles/react'
@@ -13,6 +14,8 @@ import Image from 'next/image'
 import { FaRegSquareFull } from 'react-icons/fa6'
 
 import favicon from '@/assets/favicon-primary.svg'
+import Footer from '@/components/layout/footers/Footer'
+import AboutComponent from '@/components/AboutComponent'
 
 export default function Home() {
     const [init, setInit] = useState(false)
@@ -27,7 +30,7 @@ export default function Home() {
 
     return (
         <>
-            <Headerr />
+            <Headerr backgroundColor="blackground" />
             <div className="min-h-screen bg-blackground items-center justify-center -mt-16">
                 <Particles id={'particles'} done={init} />
                 <div className="w-full flex justify-center items-center pb-20">
@@ -46,16 +49,18 @@ export default function Home() {
                             </div>
 
                             <p className="text-title-xl xl:text-title-xxl text-white font-[700]">
-                                Soluções digitais de <br />
+                                Soluções Digitais de <br />
                                 <span>
                                     <TypeAnimation
                                         sequence={[
-                                            'Desenvolvimento 🖥️',
+                                            'Desenvolvimento Web 🌐',
                                             2000, // Waits 2s
-                                            'Marketing 🚀',
+                                            'Softwares Desktop 🖥️',
                                             2000, // Waits 2s
-                                            'Design 🎨',
-                                            2000, // Waits 1ss
+                                            'Aplicativos Moveis 📱',
+                                            2000, // Waits 2ss
+                                            'Automação 🤖',
+                                            2000, // Waits 2ss
                                         ]}
                                         wrapper="span"
                                         cursor={true}
@@ -65,10 +70,10 @@ export default function Home() {
                             </p>
 
                             <p className="text-white text-title-xsm font-[200] pt-4">
-                                Uma empresa inovadora solucionando o digital
-                                para você. Nossa sede fica em Porto Alegre - RS.
-                                Atendendo a diversos clientes em território
-                                nacional.
+                                Uma empresa inovadora que desenvolve soluções
+                                digitais para você. Nossa sede fica em Porto
+                                Alegre - RS. Atendendo a diversos clientes em
+                                território nacional.
                             </p>
                             <Link href={'/contato'}>
                                 <p className="text-white text-title-sm pt-4 space-y-2">
@@ -86,13 +91,7 @@ export default function Home() {
                 </div>
                 <TextSlider />
             </div>
-            {/* <div className="w-full flex bg-home-session-background bg-cover bg-right bg-no-repeat min-h-screen items-start justify-center pt-20">
-                <div className="w-full max-w-7xl">
-                    <p className="text-title-xxl font-[700]">
-                        Sobre a L-Squared Digital Solutions
-                    </p>
-                </div>
-            </div> */}
+            <AboutComponent />
         </>
     )
 }
