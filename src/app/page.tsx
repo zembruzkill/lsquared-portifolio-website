@@ -17,6 +17,7 @@ import favicon from '@/assets/favicon-primary.svg'
 import Footer from '@/components/layout/footers/Footer'
 import AboutComponent from '@/components/AboutComponent'
 import OurServicesComponent from '@/components/OurServicesComponent'
+import StartAProject from '@/components/StartAProject'
 
 export default function Home() {
     const [init, setInit] = useState(false)
@@ -109,6 +110,7 @@ export default function Home() {
             </div>
             <AboutComponent />
             <OurServicesComponent />
+            <StartAProject />
         </>
     )
 }

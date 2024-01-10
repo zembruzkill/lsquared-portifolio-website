@@ -9,7 +9,7 @@ export default function OurServicesComponent() {
                 <div className="w-full max-w-7xl justify-center items-center flex text-center">
                     <div className="container py-10 mx-auto">
                         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl">
+                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom">
                                 <span className="inline-block text-primary ">
                                     <FaReact className={'text-title-xl'} />
                                 </span>
@@ -27,7 +27,7 @@ export default function OurServicesComponent() {
                                 </p>
                             </div>
 
-                            <div className="p-8 space-y-3 border-2 border-[#444] dark:border-[#444] rounded-xl">
+                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom">
                                 <span className="inline-block text-primary dark:text-primary">
                                     <span className="inline-block text-primary ">
                                         <MdMiscellaneousServices
@@ -36,7 +36,7 @@ export default function OurServicesComponent() {
                                     </span>
                                 </span>
 
-                                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
+                                <h1 className="text-2xl font-semibold text-white capitalize ">
                                     Desenvolvimento Backend
                                 </h1>
 
@@ -50,14 +50,14 @@ export default function OurServicesComponent() {
                                 </p>
                             </div>
 
-                            <div className="p-8 space-y-3 border-2 border-[#444] dark:border-[#444] rounded-xl">
+                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom">
                                 <span className="inline-block text-primary dark:text-primary">
                                     <MdOutlineDesktopMac
                                         className={'text-title-xl'}
                                     />
                                 </span>
 
-                                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
+                                <h1 className="text-2xl font-semibold text-white capitalize ">
                                     Softwares Desktop
                                 </h1>
 
@@ -72,7 +72,7 @@ export default function OurServicesComponent() {
                             </div>
                         </div>
                         <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2 xl:grid-cols-3">
-                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl">
+                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom">
                                 <span className="inline-block text-primary ">
                                     <FaMobile className={'text-title-xl'} />
                                 </span>
@@ -91,14 +91,14 @@ export default function OurServicesComponent() {
                                 </p>
                             </div>
 
-                            <div className="p-8 space-y-3 border-2 border-[#444] dark:border-[#444] rounded-xl">
+                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom">
                                 <span className="inline-block text-primary dark:text-primary">
                                     <span className="inline-block text-primary ">
                                         <FaRobot className={'text-title-xl'} />
                                     </span>
                                 </span>
 
-                                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
+                                <h1 className="text-2xl font-semibold text-white capitalize ">
                                     Automação de Processos
                                 </h1>
 
@@ -112,12 +112,12 @@ export default function OurServicesComponent() {
                                 </p>
                             </div>
 
-                            <div className="p-8 space-y-3 border-2 border-[#444] dark:border-[#444] rounded-xl">
+                            <div className="p-8 space-y-3 border-2 border-[#444] rounded-xl transition-all duration-500 bg-gradient-to-br to-[#0d0d0d] via-[#0d0d0d] from-black bg-size-100 hover:bg-right-bottom">
                                 <span className="inline-block text-primary dark:text-primary">
                                     <FaBrain className={'text-title-xl'} />
                                 </span>
 
-                                <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
+                                <h1 className="text-2xl font-semibold text-white capitalize ">
                                     Intergração com IA
                                 </h1>
 
