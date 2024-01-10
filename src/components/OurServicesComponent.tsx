@@ -6,7 +6,7 @@ import { MdMiscellaneousServices, MdOutlineDesktopMac } from 'react-icons/md'
 export default function OurServicesComponent() {
     return (
         <>
-            <div className="bg-blackground items-start justify-center xl:pt-12 flex pb-20">
+            <div className="bg-blackground items-start justify-center xl:pt-12 flex pb-30 xl:pb-20">
                 <div className="absolute max-w-full">
                     <TextSlider
                         services={[
@@ -29,12 +29,12 @@ export default function OurServicesComponent() {
                     <div className="flex justify-start">
                         <div className="absolute flex w-full space-y-6 p-8 xl:p-1">
                             <div className="xl:w-2/3">
-                                <h1 className="text-3xl font-semibold text-white capitalize lg:text-4xl">
-                                    Explore nossas <br />{' '}
+                                <p className="text-title-md font-semibold text-white capitalize xl:text-title-xl">
+                                    Explore nossas{' '}
                                     <span className="underline text-primary">
                                         Soluções
                                     </span>
-                                </h1>
+                                </p>
 
                                 <p className="text-white font-bold text-title-xsm xl:text-title-sm text-start">
                                     Transformamos ideias em soluções digitais

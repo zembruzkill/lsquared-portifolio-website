@@ -118,7 +118,7 @@ export default function OurServicesComponent() {
                                 </span>
 
                                 <h1 className="text-2xl font-semibold text-white capitalize dark:text-white">
-                                    Intergação com IA
+                                    Intergração com IA
                                 </h1>
 
                                 <p className="text-white font-[200]">
