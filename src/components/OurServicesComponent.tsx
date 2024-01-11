@@ -31,7 +31,7 @@ export default function OurServicesComponent() {
                             <div className="xl:w-2/3">
                                 <h1 className="text-white text-title-lg xl:text-title-xxl font-bold">
                                     Nossos{' '}
-                                    <span className="text-primary underline">
+                                    <span className="text-primary">
                                         Serviços
                                     </span>
                                 </h1>

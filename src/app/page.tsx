@@ -1,7 +1,6 @@
 'use client'
 
 import Particles from '@/components/Particles'
-import ImgSlider from '@/components/ImgSlider'
 import TextSlider from '@/components/TextSlider'
 import { useEffect, useState } from 'react'
 import { initParticlesEngine } from '@tsparticles/react'
@@ -11,7 +10,6 @@ import Headerr from '@/components/layout/headers/Header'
 import { TypeAnimation } from 'react-type-animation'
 import Link from 'next/link'
 import Image from 'next/image'
-import { FaRegSquareFull } from 'react-icons/fa6'
 
 import favicon from '@/assets/favicon-primary.svg'
 import Footer from '@/components/layout/footers/Footer'
@@ -108,7 +106,7 @@ export default function Home() {
                     ]}
                 />
             </div>
-            <AboutComponent />
+            <AboutComponent textColor="black" />
             <OurServicesComponent />
             <StartAProject />
         </>

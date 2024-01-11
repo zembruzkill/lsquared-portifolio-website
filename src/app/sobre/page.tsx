@@ -1,8 +1,6 @@
 'use client'
 
 import Header from '@/components/layout/headers/Header'
-import ImgSlider from '@/components/ImgSlider'
-import Link from 'next/link'
 import { useEffect, useRef, useState } from 'react'
 import AboutComponent from '@/components/AboutComponent'
 
@@ -39,9 +37,9 @@ const RevealOnScroll = ({ children }: { children: React.ReactNode }) => {
 export default function Sobre() {
     return (
         <>
-            <div className="bg-white items-center justify-center">
+            <div className="bg-blackground items-center justify-center">
                 <Header backgroundColor="blackground" />
-                <AboutComponent />
+                <AboutComponent textColor="white" maxWidth="max-w-380" />
             </div>
         </>
     )

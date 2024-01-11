@@ -1,15 +1,17 @@
 import Header from '@/components/layout/headers/Header'
+import ContactComponent from '@/components/ContactComponent'
+import ContactFormComponent from '@/components/ContactFormComponent'
 
 export default function Contato() {
     return (
         <>
-            <div className="min-h-screen bg-blackground items-center justify-center">
+            <div className="bg-blackground items-center justify-center">
                 <Header backgroundColor="transparent" />
-                <div className="w-full flex justify-center items-center pt-32">
-                    <h1 className="text-white text-title-xxl">Contato</h1>
-                </div>
+                <ContactComponent textColor="white" maxWidth="max-w-380" />
             </div>
-            <div className="bg-black"></div>
+            <div className="bg-white">
+                <ContactFormComponent textColor="black" maxWidth="max-w-380" />
+            </div>
         </>
     )
 }

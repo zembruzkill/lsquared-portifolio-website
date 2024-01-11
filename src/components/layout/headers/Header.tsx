@@ -106,28 +106,16 @@ export default function Header({ backgroundColor }: HeaderProps) {
                 <NavbarContent justify="end">
                     <div className="hidden text-white xl:flex gap-2">
                         <NavbarItem>
-                            <FaInstagram
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaInstagram className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaFacebook
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaFacebook className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaTwitter
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaTwitter className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaLinkedin
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaLinkedin className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                     </div>
 
@@ -162,28 +150,16 @@ export default function Header({ backgroundColor }: HeaderProps) {
                     </div>
                     <div className=" text-white flex gap-2">
                         <NavbarItem>
-                            <FaInstagram
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaInstagram className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaFacebook
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaFacebook className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaTwitter
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaTwitter className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaLinkedin
-                                className="hover:text-primary"
-                                size={25}
-                            />
+                            <FaLinkedin className="hover:text-primary text-title-md hover:text-title-lg" />
                         </NavbarItem>
                     </div>
                 </NavbarMenu>

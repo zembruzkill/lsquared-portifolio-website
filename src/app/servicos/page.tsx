@@ -1,6 +1,5 @@
 import Header from '@/components/layout/headers/Header'
 import ListOfServicesComponent from '@/components/ListOfServicesComponent'
-import TextSlider from '@/components/TextSlider'
 
 export default function Serviços() {
     return (
@@ -14,7 +13,7 @@ export default function Serviços() {
                                 <div className="xl:w-2/3">
                                     <h1 className="text-white text-title-lg xl:text-title-xxl font-bold">
                                         Nossos{' '}
-                                        <span className="text-primary underline">
+                                        <span className="text-primary">
                                             Serviços
                                         </span>
                                     </h1>

@@ -3,19 +3,31 @@ import Link from 'next/link'
 import ImgSlider from '@/components/ImgSlider'
 import favicon from '@/assets/favicon-primary.svg'
 
-export default function AboutComponent() {
+interface ContactComponentProps {
+    textColor: string
+    maxWidth?: string
+}
+
+export default function AboutComponent({
+    textColor,
+    maxWidth = 'max-w-7xl',
+}: ContactComponentProps) {
     return (
         <>
             <div className="min-h-screen items-start justify-center pt-20 space-y-20">
                 <div className="items-center justify-center">
                     <div className="w-full flex justify-center items-center">
-                        <div className="flex w-full max-w-7xl p-4">
+                        <div className={`flex w-full ${maxWidth} p-4`}>
                             <div id="#sobre" className="w-full space-y-4">
-                                <h1 className="text-black text-title-lg xl:text-title-xxl font-bold">
+                                <h1
+                                    className={`text-${textColor} text-title-lg xl:text-title-xxl font-bold`}
+                                >
                                     Sobre nossa Empresa
                                 </h1>
                                 <div className="flex gap-2">
-                                    <p className="text-black text-title-sm font-[200]">
+                                    <p
+                                        className={`text-${textColor} text-title-sm font-[200]`}
+                                    >
                                         Bem vindo a L-SQUARED{' '}
                                     </p>
                                     <Image
@@ -25,7 +37,9 @@ export default function AboutComponent() {
                                         height={25}
                                     />
                                 </div>
-                                <p className="text-black text-title-sm font-[200] pt-4">
+                                <p
+                                    className={`text-${textColor} text-title-sm font-[200] pt-4`}
+                                >
                                     Somos uma equipe apaixonada por
                                     desenvolvimento de software, dedicada a
                                     transformar ideias em soluções excepcionais.
@@ -38,11 +52,13 @@ export default function AboutComponent() {
                                     como podemos ajudar sua empresa a prosperar
                                     na era digital.
                                 </p>
-                                <p className="text-black text-title-sm pt-4 space-y-2">
+                                <p
+                                    className={`text-${textColor} text-title-sm pt-4 space-y-2`}
+                                >
                                     Preecisa de uma solução?{' '}
                                     <Link
                                         href={'/contato'}
-                                        className="underline text-primary hover:text-black"
+                                        className={`underline text-primary hover:text-${textColor}`}
                                     >
                                         Vamos conversar!
                                     </Link>
