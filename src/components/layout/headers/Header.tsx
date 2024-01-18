@@ -39,7 +39,7 @@ export default function Header({ backgroundColor }: HeaderProps) {
     ]
     return (
         <>
-            <FloatingWhatsApp
+            {/* <FloatingWhatsApp
                 phoneNumber="+5551995506794"
                 accountName="Luan"
                 statusMessage="Usualmente responde em 1 hora!"
@@ -50,7 +50,7 @@ export default function Header({ backgroundColor }: HeaderProps) {
                 allowEsc
                 notification
                 notificationSound
-            />
+            /> */}
             <Navbar
                 className={`bg-${backgroundColor}`}
                 maxWidth="2xl"
