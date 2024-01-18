@@ -97,7 +97,7 @@ export default function ContactFormComponent({
                                     </label>
                                     <Input
                                         type="email"
-                                        is
+                                        isRequired
                                         onChange={handleChange}
                                         label="Email"
                                     />
