@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="35.003342mm"
-   height="34.677635mm"
-   viewBox="0 0 35.003343 34.677635"
+   width="35.117447mm"
+   height="35.009266mm"
+   viewBox="0 0 35.117448 35.009266"
    version="1.1"
    id="svg5"
    inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
-   sodipodi:docname="drawing.svg"
+   sodipodi:docname="logo.svg"
    inkscape:export-filename="drawing.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -18,7 +19,7 @@
   <sodipodi:namedview
      id="namedview7"
      pagecolor="#ffffff"
-     bordercolor="#7fd5f8"
+     bordercolor="#000000"
      borderopacity="0.25"
      inkscape:showpageshadow="2"
      inkscape:pageopacity="0.0"
@@ -26,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.1715924"
-     inkscape:cx="358.48646"
-     inkscape:cy="214.66511"
+     inkscape:zoom="1.1909118"
+     inkscape:cx="359.38849"
+     inkscape:cy="128.05314"
      inkscape:window-width="1710"
      inkscape:window-height="963"
      inkscape:window-x="0"
@@ -36,79 +37,53 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs2">
-    <inkscape:path-effect
-       effect="bounding_box"
-       id="path-effect523"
-       is_visible="true"
-       lpeversion="1"
-       linkedpath=""
-       visualbounds="true" />
-    <inkscape:path-effect
-       effect="bounding_box"
-       id="path-effect523-4"
-       is_visible="true"
-       lpeversion="1"
-       linkedpath=""
-       visualbounds="true" />
-    <inkscape:path-effect
-       effect="bounding_box"
-       id="path-effect523-4-5"
-       is_visible="true"
-       lpeversion="1"
-       linkedpath=""
-       visualbounds="true" />
-    <inkscape:path-effect
-       effect="bounding_box"
-       id="path-effect523-7"
-       is_visible="true"
-       lpeversion="1"
-       linkedpath=""
-       visualbounds="true" />
-  </defs>
+     id="defs2" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-49.394749,-81.004962)">
-    <path
-       id="rect234-7"
-       transform="matrix(-0.00646837,-0.99997908,0.99998041,-0.00625861,0,0)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
-       inkscape:path-effect="#path-effect523"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc"
-       inkscape:export-filename="favicon.svg"
+     transform="translate(-49.315391,-80.820928)">
+    <g
+       id="g371"
+       style="fill:#7fd5f8;fill-opacity:1"
+       inkscape:export-filename="../../../../Desktop/favicon.svg"
        inkscape:export-xdpi="96"
-       inkscape:export-ydpi="96" />
-    <path
-       id="rect234-7-0"
-       transform="matrix(0.99997908,0.00646837,0.00625861,-0.99998041,165.42177,165.43441)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
-       inkscape:path-effect="#path-effect523-4"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       id="rect234-7-2"
-       transform="matrix(0.00646837,0.99997908,-0.99998041,0.00625861,133.79284,196.65914)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
-       inkscape:path-effect="#path-effect523-7"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
-    <path
-       id="rect234-7-0-9"
-       transform="matrix(-0.99997908,-0.00646837,-0.00625861,0.99998041,-31.638473,31.253148)"
-       d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#7fd5f8"
-       inkscape:path-effect="#path-effect523-4-5"
-       inkscape:original-d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-       class="UnoptimicedTransforms"
-       sodipodi:nodetypes="ccccc" />
+       inkscape:export-ydpi="96">
+      <path
+         id="rect234-7-0"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g371-3"
+       style="fill:#7fd5f8;fill-opacity:1"
+       transform="matrix(0,1,1,0,-31.498023,31.397357)">
+      <path
+         id="rect234-7-0-7"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g371-3-1"
+       style="fill:#7fd5f8;fill-opacity:1"
+       transform="rotate(180,66.874113,98.323739)">
+      <path
+         id="rect234-7-0-7-8"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g371-0"
+       style="fill:#7fd5f8;fill-opacity:1"
+       transform="matrix(0,-1,-1,0,165.24607,165.25584)">
+      <path
+         id="rect234-7-0-2"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#7fd5f8;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
   </g>
 </svg>

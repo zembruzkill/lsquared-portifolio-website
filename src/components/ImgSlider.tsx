@@ -3,28 +3,32 @@ import Image from 'next/image'
 export default function LogoCarousel() {
     const items = [
         {
-            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1704856835/googlepartner-bird3x_kf9dae.webp',
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/googleCertification_y6idmz_i1g3mx.png',
             alt: 'Google Partener Logo',
         },
         {
-            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1704858791/digital-bird3x_xpawqw.webp',
-            alt: 'Logo',
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705615231/oracleDatabaseCertification_t4oyge_c85ikd.png',
+            alt: 'Oracle Certified',
         },
         {
-            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1704858928/goodfirms-bird3x_wjzp0o.webp',
-            alt: 'Logo',
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/iso9003_ilc5dz_v56a0s.png',
+            alt: 'ISO',
         },
         {
-            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1704856835/trustpilot-bird3x_okxezl.webp',
-            alt: 'Logo',
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/awsCertified_tno2tr_mkhpsj.png',
+            alt: 'AWS Partener',
         },
         {
-            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1704856835/clutch-bird3x_uaf9hq.webp',
-            alt: 'Logo',
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/gdpr_wkjio9_axvqak.png',
+            alt: 'GRPD',
         },
         {
-            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1704856835/designrush-bird3x_uled23.webp',
-            alt: 'Logo',
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/awsCertifications_k1ibry_espsgr.png',
+            alt: 'Aws Certified',
+        },
+        {
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/blockchainCertification_vivlcq_xunv2a.png',
+            alt: 'Blockchain',
         },
     ]
 

@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { use, useEffect } from 'react'
 import { Input, Radio, RadioGroup, Textarea } from '@nextui-org/react'
 
 interface ContactComponentProps {
@@ -12,6 +12,44 @@ export default function ContactFormComponent({
     textColor,
     maxWidth = 'max-w-7xl',
 }: ContactComponentProps) {
+    const [data, setData] = React.useState({
+        name: '',
+        email: '',
+        phone: '',
+        message: '',
+    })
+    const [selected, setSelected] = React.useState('outro')
+
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+        const { name, value } = event.target
+        setData({
+            ...data,
+            [name]: value,
+        })
+
+        console.log(event.target.value)
+        console.log(data)
+    }
+
+    const onSubmit = (event: React.SyntheticEvent) => {
+        fetch('/api/contact', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then((response) => response.json())
+            .then((result) => {
+                // Handle the API response here
+                console.log(result)
+            })
+            .catch((error) => {
+                // Handle any errors here
+                console.error(error)
+            })
+    }
+
     return (
         <>
             <div className={`flex justify-center`}>
@@ -40,14 +78,16 @@ export default function ContactFormComponent({
                         <div className="hidden xl:block xl:w-1/3"></div>
                     </div>
                     <div className={`flex w-full ${maxWidth} p-4`}>
-                        <form className="w-full">
+                        <form className="w-full" onSubmit={onSubmit}>
                             <div className="flex flex-wrap mb-6">
                                 <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-4">
                                         Seu Nome
                                     </label>
                                     <Input
-                                        type="nome"
+                                        isRequired
+                                        type="name"
+                                        onChange={handleChange}
                                         label="Seu Nome Completo"
                                     />
                                 </div>
@@ -55,19 +95,30 @@ export default function ContactFormComponent({
                                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-4">
                                         Email
                                     </label>
-                                    <Input type="email" label="Email" />
+                                    <Input
+                                        type="email"
+                                        is
+                                        onChange={handleChange}
+                                        label="Email"
+                                    />
                                 </div>
                                 <div className="w-full md:w-1/3 px-3 mb-6 md:mb-0">
                                     <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-4">
                                         Telefone
                                     </label>
-                                    <Input type="telefone" label="Telefone" />
+                                    <Input
+                                        type="phone"
+                                        onChange={handleChange}
+                                        label="Telefone"
+                                    />
                                 </div>
                             </div>
                             <div className="flex flex-wrap mb-4">
                                 <RadioGroup
                                     label="Onde você ouviu falar de nós?"
                                     orientation="horizontal"
+                                    value={selected}
+                                    onValueChange={setSelected}
                                 >
                                     <Radio value="google">
                                         Busca do Google
@@ -83,7 +134,9 @@ export default function ContactFormComponent({
                             <div className="flex flex-wrap mb-4">
                                 <Textarea
                                     label="Mensagem"
+                                    type="message"
                                     variant="bordered"
+                                    onChange={handleChange}
                                     placeholder="Escreva sua mensagem aqui..."
                                     disableAnimation
                                     disableAutosize

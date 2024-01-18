@@ -27,15 +27,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="0.96781717"
-     inkscape:cx="311.52578"
-     inkscape:cy="231.9653"
+     inkscape:zoom="1.1909118"
+     inkscape:cx="321.18247"
+     inkscape:cy="112.93867"
      inkscape:window-width="1710"
      inkscape:window-height="963"
      inkscape:window-x="0"
      inkscape:window-y="43"
      inkscape:window-maximized="1"
-     inkscape:current-layer="text2483" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -74,36 +74,54 @@
      transform="translate(-49.394749,-81.004962)">
     <g
        id="g371"
-       style="fill:#ffffff">
-      <path
-         id="rect234-7"
-         transform="matrix(-0.00646837,-0.99997908,0.99998041,-0.00625861,0,0)"
-         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-         sodipodi:nodetypes="ccccc" />
+       style="fill:#ffffff;fill-opacity:1"
+       inkscape:export-filename="favicon-primary.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <path
          id="rect234-7-0"
-         transform="matrix(0.99997908,0.00646837,0.00625861,-0.99998041,165.42177,165.43441)"
-         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         id="rect234-7-2"
-         transform="matrix(0.00646837,0.99997908,-0.99998041,0.00625861,133.79284,196.65914)"
-         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -31.914468,-0.219653 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
-         sodipodi:nodetypes="ccccc" />
-      <path
-         id="rect234-7-0-9"
-         transform="matrix(-0.99997908,-0.00646837,-0.00625861,0.99998041,-31.638473,31.253148)"
-         d="m -108.31122,77.446537 26.549558,0.03199 v 6.192001 l -32.091618,-0.17658 z"
-         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.400507;stroke-opacity:0;stop-color:#000000"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
          sodipodi:nodetypes="ccccc" />
     </g>
     <g
+       id="g371-3"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(0,1,1,0,-31.498023,31.397357)">
+      <path
+         id="rect234-7-0-7"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g371-3-1"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="rotate(180,66.874113,98.323739)">
+      <path
+         id="rect234-7-0-7-8"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g371-0"
+       style="fill:#ffffff;fill-opacity:1"
+       transform="matrix(0,-1,-1,0,165.24607,165.25584)">
+      <path
+         id="rect234-7-0-2"
+         d="m 60.164289,89.782605 23.939238,-0.02448 0.09267,-8.702984 -32.815383,0.01148 z"
+         style="fill:#ffffff;fill-opacity:1;stroke:#9a8a66;stroke-width:0.468261;stroke-opacity:0;stop-color:#000000"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g371-7"
+       style="fill:#000000"
+       transform="matrix(0,-1,-1,0,165.39567,165.4135)" />
+    <g
        aria-label="L-SQUARED"
        id="text2483"
-       style="font-size:25.4px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-anchor:middle;stroke:#9a8a66;stroke-width:0.759;stroke-opacity:0;stop-color:#000000">
+       style="font-size:25.4px;font-family:'Arial Black';-inkscape-font-specification:'Arial Black, ';text-anchor:middle;stroke:#9a8a66;stroke-width:0.759;stroke-opacity:0;stop-color:#000000;fill:#ffffff">
       <path
          d="M 89.539333,106.02728 V 88.247283 h 4.3434 v 13.944597 h 7.924797 v 3.8354 z"
          style="font-weight:bold;font-family:'Readex Pro';-inkscape-font-specification:'Readex Pro Bold';fill:#ffffff"
