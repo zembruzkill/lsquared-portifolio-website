@@ -12,44 +12,6 @@ export default function ContactTypebotComponent({
     textColor,
     maxWidth = 'max-w-7xl',
 }: ContactComponentProps) {
-    const [data, setData] = React.useState({
-        name: '',
-        email: '',
-        phone: '',
-        message: '',
-    })
-    const [selected, setSelected] = React.useState('outro')
-
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const { name, value } = event.target
-        setData({
-            ...data,
-            [name]: value,
-        })
-
-        console.log(event.target.value)
-        console.log(data)
-    }
-
-    const onSubmit = (event: React.SyntheticEvent) => {
-        fetch('/api/contact', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data),
-        })
-            .then((response) => response.json())
-            .then((result) => {
-                // Handle the API response here
-                console.log(result)
-            })
-            .catch((error) => {
-                // Handle any errors here
-                console.error(error)
-            })
-    }
-
     return (
         <>
             <div className={`flex justify-center`}>
@@ -78,14 +40,7 @@ export default function ContactTypebotComponent({
                         <div className="hidden xl:block xl:w-1/3"></div>
                     </div>
                     <div className={`flex max-w-3xl p-4`}>
-                        <Standard
-                            typebot="client-onboarding-cafw0ct"
-                            style={{
-                                width: '100%',
-                                height: '600px',
-                                justifyContent: 'left',
-                            }}
-                        />
+                        <Standard typebot="client-onboarding-cafw0ct" />
                     </div>
                 </div>
             </div>
