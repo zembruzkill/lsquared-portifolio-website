@@ -78,14 +78,14 @@ export default function Footer() {
                                                 Contato
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link
                                                 href="/trabalhe-conosco"
                                                 className="text-sm text-white hover:primary"
                                             >
                                                 Trabalhe Conosco
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 <div className="mt-12 md:mt-0">
