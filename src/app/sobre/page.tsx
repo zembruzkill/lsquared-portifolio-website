@@ -3,6 +3,7 @@
 import Header from '@/components/layout/headers/Header'
 import { useEffect, useRef, useState } from 'react'
 import AboutComponent from '@/components/AboutComponent'
+import Footer from '@/components/layout/footers/Footer'
 
 const RevealOnScroll = ({ children }: { children: React.ReactNode }) => {
     const [isVisible, setIsVisible] = useState(false)
@@ -41,6 +42,7 @@ export default function Sobre() {
                 <Header backgroundColor="blackground" />
                 <AboutComponent textColor="white" maxWidth="max-w-380" />
             </div>
+            <Footer />
         </>
     )
 }

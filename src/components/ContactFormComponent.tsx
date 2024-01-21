@@ -69,10 +69,10 @@ export default function ContactFormComponent({
                             <p
                                 className={`text-${textColor} text-title-sm font-[200] pt-4`}
                             >
-                                Quer entrar em contato? Utilize o formulário ou
-                                os dados de contato abaixo para iniciar a
-                                conversa. Nosso objetivo é responder a todas as
-                                perguntas dentro de 24 horas.
+                                Utilize o formulário ou os dados de contato
+                                abaixo para iniciar a conversa. Nosso objetivo é
+                                responder a todas as perguntas dentro de 24
+                                horas.
                             </p>
                         </div>
                         <div className="hidden xl:block xl:w-1/3"></div>

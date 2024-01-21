@@ -1,18 +1,33 @@
 import Image from 'next/image'
 
 import logo from '@/assets/logo.svg'
+import {
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin,
+    FaXTwitter,
+} from 'react-icons/fa6'
+import { Button } from '@nextui-org/react'
+import { Bubble } from '@typebot.io/nextjs'
+import Link from 'next/link'
 
 export default function Footer() {
     return (
         <>
             <footer className="bg-blackground" aria-labelledby="footer-heading">
-                <h2 id="footer-heading" className="sr-only">
-                    Footer
-                </h2>
-                <div className="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20">
+                <Bubble
+                    typebot="client-onboarding-l-squared"
+                    previewMessage={{
+                        message: 'Como podemos ajudar?',
+                        autoShowDelay: 10000,
+                        avatarUrl: 'https://www.lsquared.com.br/favicon.ico',
+                    }}
+                    theme={{ button: { backgroundColor: '#7fd5f8' } }}
+                />
+                <div className="px-5 py-12 mx-auto max-w-380 lg:py-16 md:px-12 lg:px-20">
                     <div className="xl:grid xl:grid-cols-3 xl:gap-8">
                         <div className="xl:col-span-1">
-                            <a
+                            <Link
                                 href="/"
                                 className="text-lg font-bold tracking-tighter transition duration-500 ease-in-out transform text-white tracking-relaxed lg:pr-8"
                             >
@@ -22,126 +37,124 @@ export default function Footer() {
                                     width={200}
                                     height={200}
                                 />
-                            </a>
-                            <p className="w-1/2 mt-2 text-sm text-white">
-                                Unwrapped your mind
-                            </p>
+                            </Link>
                         </div>
                         <div className="grid grid-cols-2 gap-8 mt-12 xl:mt-0 xl:col-span-2">
                             <div className="md:grid md:grid-cols-2 md:gap-8">
                                 <div>
                                     <h3 className="font-semibold leading-6 uppercase text-white">
-                                        Solutions
+                                        Mapa do Site
                                     </h3>
                                     <ul role="list" className="mt-4 space-y-3">
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Marketing
-                                            </a>
+                                                Início
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/sobre"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Analytics
-                                            </a>
+                                                Sobre
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Commerce
-                                            </a>
+                                                Serviços
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/contato"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Insights
-                                            </a>
+                                                Contato
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                href="/trabalhe-conosco"
+                                                className="text-sm text-white hover:primary"
+                                            >
+                                                Trabalhe Conosco
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="mt-12 md:mt-0">
                                     <h3 className="font-semibold leading-6 uppercase text-white">
-                                        Support
+                                        Serviços
                                     </h3>
                                     <ul role="list" className="mt-4 space-y-4">
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Pricing
-                                            </a>
+                                                Desenvolvimento Backend
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Alpine.js
-                                            </a>
+                                                Desenvolvimento Frontend
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                Guides
-                                            </a>
+                                                Automação de Processos
+                                            </Link>
                                         </li>
                                         <li>
-                                            <a
-                                                href="#_"
-                                                className="text-sm text-white hover:text-blue-600"
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
                                             >
-                                                API Status
-                                            </a>
+                                                Softwares Desktop
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
+                                            >
+                                                Aplicativos Móveis
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link
+                                                href="/servicos"
+                                                className="text-sm text-white hover:primary"
+                                            >
+                                                Integração com IA
+                                            </Link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="hidden lg:justify-end md:grid md:grid-cols-1">
-                                <div className="w-full mt-12 md:mt-0">
-                                    <div className="mt-8 lg:justify-end xl:mt-0">
-                                        <h3 className="font-semibold leading-6 uppercase text-white">
-                                            Subscribe to our newsletter
-                                        </h3>
-                                        <p className="mt-4 text-sm font-light text-white lg:ml-auto">
-                                            The latest news, articles, and
-                                            resources, sent to your inbox
-                                            weekly.
-                                        </p>
-                                        <div className="inline-flex items-center gap-2 mt-12 list-none lg:ml-auto">
-                                            <form
-                                                className="flex flex-col items-center justify-center max-w-sm mx-auto"
-                                                action=""
-                                            >
-                                                <div className="flex flex-col w-full gap-1 mt-3 sm:flex-row">
-                                                    <svg
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        viewBox="0 0 20 20"
-                                                        fill="currentColor"
-                                                        aria-hidden="true"
-                                                        className="w-4 h-auto ml-2"
-                                                    >
-                                                        <path
-                                                            fill-rule="evenodd"
-                                                            d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                                                            clip-rule="evenodd"
-                                                        ></path>
-                                                    </svg>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
+                                <div className="w-full mt-12 md:mt-0 justify-center flex">
+                                    <Link href={'/contato'}>
+                                        <Button
+                                            color="primary"
+                                            variant="shadow"
+                                            size="lg"
+                                        >
+                                            ENTRE EM CONTATO
+                                        </Button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -150,35 +163,32 @@ export default function Footer() {
                 <div className="px-5 py-12 mx-auto border-t max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
                     <div className="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
                         <span className="inline-flex justify-center w-full gap-3 lg:ml-auto md:justify-start md:w-auto">
-                            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-                                <span className="sr-only"> github</span>
-                                {/* <ion-icon className="w-5 h-5 md hydrated" name="logo-github" role="img" aria-label="logo github"></ion-icon> */}
-                            </a>
-                            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-                                <span className="sr-only"> twitter</span>
-                                {/* <ion-icon className="w-5 h-5 md hydrated" name="logo-twitter" role="img" aria-label="logo twitter"></ion-icon> */}
-                            </a>
-                            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-                                <span className="sr-only">Instagram</span>
-                                {/* <ion-icon className="w-5 h-5 md hydrated" name="logo-instagram" role="img" aria-label="logo instagram"></ion-icon> */}
-                            </a>
-                            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-                                <span className="sr-only">Linkedin</span>
-                                {/* <ion-icon className="w-5 h-5 md hydrated" name="logo-linkedin" role="img" aria-label="logo linkedin"></ion-icon> */}
-                            </a>
+                            <div className="hidden text-white xl:flex gap-2 text-title-xl">
+                                <Link href="https://www.instagram.com/lsquaredds/">
+                                    <FaInstagram />
+                                </Link>
+
+                                <Link href="https://www.facebook.com/profile.php?id=61555205385141">
+                                    <FaFacebook />
+                                </Link>
+
+                                <Link href="https://twitter.com/LSquaredDS">
+                                    <FaXTwitter />
+                                </Link>
+
+                                <Link href="https://www.linkedin.com/company/l-squared-digital-solutions">
+                                    <FaLinkedin />
+                                </Link>
+                            </div>
                         </span>
                     </div>
                     <div className="mt-8 md:mt-0 md:order-1">
                         <span className="mt-2 text-sm font-light text-white">
-                            Copyright © 2020 - 2021
-                            <a
-                                href="#_"
-                                className="mx-2 text-wickedblue hover:text-white"
-                                rel="noopener noreferrer"
-                            >
-                                @unwrappedHQ
-                            </a>
-                            . Since 2020
+                            Copyright © 2023 - 2024
+                            <span className="mx-2 text-primary hover:text-white">
+                                Todos os Direitos Reservados
+                            </span>
+                            L-Squared
                         </span>
                     </div>
                 </div>

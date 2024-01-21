@@ -55,7 +55,7 @@ export default function AboutComponent({
                                 <p
                                     className={`text-${textColor} text-title-sm pt-4 space-y-2`}
                                 >
-                                    Preecisa de uma solução?{' '}
+                                    Precisa de uma solução?{' '}
                                     <Link
                                         href={'/contato'}
                                         className={`underline text-primary hover:text-${textColor}`}

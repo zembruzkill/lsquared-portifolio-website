@@ -1,7 +1,7 @@
 'use client'
 
 import React, { use, useEffect } from 'react'
-import { Standard } from '@typebot.io/react'
+import { Standard } from '@typebot.io/nextjs'
 
 interface ContactComponentProps {
     textColor: string
@@ -40,7 +40,10 @@ export default function ContactTypebotComponent({
                         <div className="hidden xl:block xl:w-1/3"></div>
                     </div>
                     <div className={`flex max-w-3xl p-4`}>
-                        <Standard typebot="client-onboarding-cafw0ct" />
+                        <Standard
+                            typebot="client-onboarding-l-squared"
+                            style={{ width: '100%', height: '600px' }}
+                        />
                     </div>
                 </div>
             </div>

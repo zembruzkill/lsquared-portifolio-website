@@ -109,6 +109,7 @@ export default function Home() {
             <AboutComponent textColor="black" />
             <OurServicesComponent />
             <StartAProject />
+            <Footer />
         </>
     )
 }

@@ -30,6 +30,10 @@ export default function LogoCarousel() {
             src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705614907/blockchainCertification_vivlcq_xunv2a.png',
             alt: 'Blockchain',
         },
+        {
+            src: 'https://res.cloudinary.com/doorwkexf/image/upload/v1705854898/meta_partner_gl3zmt.png',
+            alt: 'Facebook Partener',
+        },
     ]
 
     return (

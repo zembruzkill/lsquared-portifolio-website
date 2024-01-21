@@ -1,3 +1,6 @@
+'use client'
+
+import Footer from '@/components/layout/footers/Footer'
 import Header from '@/components/layout/headers/Header'
 import ListOfServicesComponent from '@/components/ListOfServicesComponent'
 
@@ -31,7 +34,7 @@ export default function Serviços() {
                 </div>
                 <ListOfServicesComponent />
             </div>
-            <div className="bg-black"></div>
+            <Footer />
         </>
     )
 }
