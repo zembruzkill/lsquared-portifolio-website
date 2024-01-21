@@ -180,16 +180,16 @@ export default function Header({ backgroundColor }: HeaderProps) {
                     </div>
                     <div className=" text-white flex gap-2">
                         <NavbarItem>
-                            <FaInstagram className="hover:text-primary text-title-md hover:text-title-lg" />
+                            <FaInstagram className="hover:text-primary text-title-md" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaFacebook className="hover:text-primary text-title-md hover:text-title-lg" />
+                            <FaFacebook className="hover:text-primary text-title-md" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaXTwitter className="hover:text-primary text-title-md hover:text-title-lg" />
+                            <FaXTwitter className="hover:text-primary text-title-md" />
                         </NavbarItem>
                         <NavbarItem>
-                            <FaLinkedin className="hover:text-primary text-title-md hover:text-title-lg" />
+                            <FaLinkedin className="hover:text-primary text-title-md" />
                         </NavbarItem>
                     </div>
                 </NavbarMenu>
