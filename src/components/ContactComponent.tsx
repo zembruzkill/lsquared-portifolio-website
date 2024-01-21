@@ -26,7 +26,7 @@ export default function ContactComponent({
                                 <p
                                     className={`text-${textColor} text-title-sm font-[200] pt-4`}
                                 >
-                                    Utilize o formulário ou os dados de contato
+                                    Utilize o chatbot ou os dados de contato
                                     abaixo para iniciar a conversa. Nosso
                                     objetivo é responder a todas as perguntas
                                     dentro de 24 horas.
