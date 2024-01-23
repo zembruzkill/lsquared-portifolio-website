@@ -110,7 +110,7 @@ export default function Header({ backgroundColor }: HeaderProps) {
                 </NavbarContent>
 
                 <NavbarContent justify="end">
-                    <div className="hidden text-white xl:flex gap-2">
+                    {/* <div className="hidden text-white xl:flex gap-2">
                         <NavbarItem>
                             <Link
                                 isExternal
@@ -147,7 +147,7 @@ export default function Header({ backgroundColor }: HeaderProps) {
                                 <FaLinkedin className="hover:text-primary text-title-md hover:text-title-lg" />
                             </Link>
                         </NavbarItem>
-                    </div>
+                    </div> */}
 
                     <NavbarItem>
                         <Button
@@ -178,7 +178,7 @@ export default function Header({ backgroundColor }: HeaderProps) {
                     <div className="pb-4 pt-4 pr-4">
                         <hr className="" />
                     </div>
-                    <div className=" text-white flex gap-2">
+                    {/* <div className=" text-white flex gap-2">
                         <NavbarItem>
                             <FaInstagram className="hover:text-primary text-title-md" />
                         </NavbarItem>
@@ -191,7 +191,7 @@ export default function Header({ backgroundColor }: HeaderProps) {
                         <NavbarItem>
                             <FaLinkedin className="hover:text-primary text-title-md" />
                         </NavbarItem>
-                    </div>
+                    </div> */}
                 </NavbarMenu>
             </Navbar>
         </>

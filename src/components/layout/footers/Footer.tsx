@@ -163,7 +163,7 @@ export default function Footer() {
                 <div className="px-5 py-12 mx-auto border-t max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20">
                     <div className="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
                         <span className="inline-flex justify-center w-full gap-3 lg:ml-auto md:justify-start md:w-auto">
-                            <div className="hidden text-white xl:flex gap-2 text-title-xl ">
+                            {/* <div className="hidden text-white xl:flex gap-2 text-title-xl ">
                                 <Link href="https://www.instagram.com/lsquaredds/">
                                     <FaInstagram className="hover:text-primary" />
                                 </Link>
@@ -179,7 +179,7 @@ export default function Footer() {
                                 <Link href="https://www.linkedin.com/company/l-squared-digital-solutions">
                                     <FaLinkedin className="hover:text-primary" />
                                 </Link>
-                            </div>
+                            </div> */}
                         </span>
                     </div>
                     <div className="mt-8 md:mt-0 md:order-1">
