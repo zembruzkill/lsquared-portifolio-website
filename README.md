@@ -1,10 +1,14 @@
 # Website for a Company that Develops IT Solutions (Fictitious)
 
+<h1 align="center">
+    <img alt="" title="#hero" src=".github/hero.png"/>
+</h1>
+
 ## Technologies Used
 
-- **React:** A JavaScript library for building user interfaces, allsowing the creation of reusable and efficient components.
+-   **React:** A JavaScript library for building user interfaces, allsowing the creation of reusable and efficient components.
 
-- **Next.js:** A React framework that enables server-side rendering, simple routing, and other useful features for developing modern web applications.
+-   **Next.js:** A React framework that enables server-side rendering, simple routing, and other useful features for developing modern web applications.
 
 ## Installation
 
